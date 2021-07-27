@@ -2,7 +2,8 @@
 This repository works as template for developing documentation for our open source project.
 
 ## How to use
-- Fork this project
+- click button `use this template`
+- create new repository based on this repository, check include all branches
 - Install python and pip
 - Install `mkdocs-material` using pip by running this command:
 
