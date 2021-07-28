@@ -76,3 +76,7 @@ extra:
 
 nav:
   - Home: index.md
+  - Documentation: 
+    - Code: code.md
+    - Dependencies: dependencies.md
+    - Implementation: implementation.md

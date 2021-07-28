@@ -6,84 +6,28 @@ title:
 
 This website work as a template for your open source documentation
 
-## Code Documentation
-You can use this to document your code like this:
+## Telkom DEV
+What is Telkom DEV? <br/>
+<iframe
+    width="700"
+    height="480"
+    src="https://www.youtube.com/embed/GmOJ0dDHySI"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
 
-=== "Java"
-    ```java
-    class User() {
-      public String name;
-      public String email;
 
-      public User(String name, String email) {
-        this.name = name;
-        this.email = email;
-      }
+## Stream
+Here are some framework used in here:
 
-      public setName(String name) {
-        this.name = name;
-      }
+- Mobile ![android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white) ![Ios](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white) ![react-native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+- Front-End: ![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+- Back-End: ![go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white) ![node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
-      public String getName() {
-        return this.name;
-      }
 
-      public setEmail(String email) {
-        this.email = email;
-      }
-
-      public String getEmail() {
-        return this.email;
-      }
-    }
-    ```
-
-=== "Kotlin"
-    ```kotlin
-    data class User(name : String, email : String)
-    ```
-
-!!! Note
-    You can also provide information like this using admonition
-
-## Focus on content
-
-Write your documentation using [markdown](https://www.markdownguide.org/basic-syntax/) without any tweaks on HTML, javascript, or CSS.
-You can provide your project dependencies using table like this:
-
-|Name|Version|
-|---|---|
-|Some Dependencies|`0.1.0`|
-|Other Dependencies we need| `1.3.10`|
-
-You can also add footnotes, like this: 
-> PHP is the best language[^1]
-
-You can provide list to define things too:
-
-- One Apple
-- Two Oranges
-- Three Bananas
-
-or even a task lists to define which codebase is the best:
-
-- [x] Android
-- [ ] Ios
-- [ ] React Native
-- [ ] Back-end
 
 ## Other
 You can see all list of configuration [here](https://squidfunk.github.io/mkdocs-material/) <br/>
 Or even a sample of this template [here](https://dev-codebase.web.app/)
-
-
-
-
-
-
-
-
-
-
-
-[^1]: It's not
