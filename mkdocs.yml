@@ -55,6 +55,7 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.tabbed
+  - pymdownx.magiclink
   - pymdownx.superfences
   - pymdownx.keys
   - pymdownx.mark
@@ -80,3 +81,12 @@ nav:
     - Code: code.md
     - Dependencies: dependencies.md
     - Implementation: implementation.md
+  - Development:
+    - Android: development/android.md
+    - iOS: development/ios.md
+    - React Native: development/react.md
+    - Front-End: development/frontend.md
+    - Back-End: development/backend.md
+    - Documentation: development/documentation.md
+    - Quality Assurance: development/quality.md
+    - DevOps: development/devops.md
